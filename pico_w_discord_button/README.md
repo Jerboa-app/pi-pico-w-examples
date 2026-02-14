@@ -4,13 +4,16 @@
 
 ![image](https://github.com/JerboaBurrow/PICO_W_DISCORD_MESSAGE/blob/main/Result.png)
 
+### Pinout
 
-### Usage
+![pinout](https://github.com/Jerboa-app/pi-pico-w-examples/blob/main/pico_w_discord_button/pinout.png)
+
+### Setup
 
 - Get a Raspberry Pi Pico W (£5.40)
 - Install the sdk https://github.com/raspberrypi/pico-sdk
 - Setup a Discord server and add a Webhook to it
-- ./build.sh -p YOUR_WIFI_PASS -s YOUR_SSID -w YOUR_WEBHOOK -i YOUR_PNG_IN_BASE64
+- ./build.sh -p YOUR_WIFI_PASS -s YOUR_SSID -w YOUR_WEBHOOK
 - Copy the uf2 as normal to your Pico W.
 
 
