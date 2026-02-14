@@ -1,0 +1,3 @@
+- Sending messages to a discord server via a Webhook over HTTPS
+  - Include an image (multipart/form-data) [pico_w_discord_image](https://github.com/Jerboa-app/pi-pico-w-examples/tree/main/pico_w_discord_image)
+  - Whenever you press a button [pico_w_discord_button](https://github.com/Jerboa-app/pi-pico-w-examples/tree/main/pico_w_discord_button)
