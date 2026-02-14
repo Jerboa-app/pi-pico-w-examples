@@ -1,8 +1,10 @@
-### Send an image as a message to a Discord webhook from Pi Pico W.
+### Send a message to a Discord webhook from Pi Pico W every time you press a button.
 
 ### Output
 
-![image](https://github.com/JerboaBurrow/PICO_W_DISCORD_MESSAGE/blob/main/Result.png)
+Each button press you should see this message.
+
+![image](https://github.com/Jerboa-app/pi-pico-w-examples/blob/main/pico_w_discord_button/output.png)
 
 ### Pinout
 
@@ -10,7 +12,7 @@
 
 ### Setup
 
-- Get a Raspberry Pi Pico W (£5.40)
+- Get a Raspberry Pi Pico W (£5.40), 10 K $\Omega$ resistor, 3 jumper wires, breadboard, and a push switch.
 - Install the sdk https://github.com/raspberrypi/pico-sdk
 - Setup a Discord server and add a Webhook to it
 - ./build.sh -p YOUR_WIFI_PASS -s YOUR_SSID -w YOUR_WEBHOOK
